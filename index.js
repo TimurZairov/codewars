@@ -44,3 +44,14 @@
 // litres(1787)
 
 
+// const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+//     // TODO
+//     const km = mpg*fuelLeft
+//     if(distanceToPump <= km){
+//         return true
+//     }else {
+//         return false
+//     }
+// };
+//
+// zeroFuel(100, 50, 1)
