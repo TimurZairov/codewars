@@ -55,3 +55,9 @@
 // };
 //
 // zeroFuel(100, 50, 1)
+
+// function numberToString(num) {
+//     // Return a string of the number here!
+//     console.log(num.toString())
+// }
+// numberToString(555)
