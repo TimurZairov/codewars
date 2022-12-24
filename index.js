@@ -73,3 +73,16 @@
 // }
 //
 // lovefunc(10, 15)
+
+function invert(array) {
+    const invertArr = array.map((item) => {
+        if(item >= 0){
+            return +(`-${item}`)
+        }else if(item < 0) {
+            return item*-1
+        }
+    })
+    return invertArr
+}
+
+invert([1,2,3,4,-5])
