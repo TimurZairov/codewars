@@ -61,3 +61,15 @@
 //     console.log(num.toString())
 // }
 // numberToString(555)
+
+
+// function lovefunc(flower1, flower2){
+//     // moment of truth
+//     if((flower1+flower2)%2 === 1){
+//         return true
+//     }else {
+//         return false
+//     }
+// }
+//
+// lovefunc(10, 15)
