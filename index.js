@@ -36,6 +36,11 @@
 //
 // findShort('kdjfdskf jkdsjfklds fdfskfd')
 
-
+// function litres(time) {
+//     return Math.floor(time/0.5)
+//     return 0;
+// }
+//
+// litres(1787)
 
 
