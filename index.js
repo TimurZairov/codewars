@@ -26,6 +26,16 @@
 // XO("asdasdadp")
 // XO("zzoo")
 
+// function findShort(s){
+//     const arr = []
+//     s.split(' ').forEach(item => {
+//         arr.push(item.length)
+//     })
+//     return Math.min.apply(null, arr)
+// }
+//
+// findShort('kdjfdskf jkdsjfklds fdfskfd')
+
 
 
 
