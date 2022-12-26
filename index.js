@@ -74,15 +74,33 @@
 //
 // lovefunc(10, 15)
 
-function invert(array) {
-    const invertArr = array.map((item) => {
-        if(item >= 0){
-            return +(`-${item}`)
-        }else if(item < 0) {
-            return item*-1
-        }
-    })
-    return invertArr
+// function invert(array) {
+//     const invertArr = array.map((item) => {
+//         if(item >= 0){
+//             return +(`-${item}`)
+//         }else if(item < 0) {
+//             return item*-1
+//         }
+//     })
+//     return invertArr
+// }
+//
+// invert([1,2,3,4,-5])
+
+function evenOrOdd(number) {
+    let num
+    if(number > 0) {
+        num = number%2
+    }else {
+        num = number* -1 %2
+    }
+    if(num === 0) {
+        console.log('ok')
+        return "Even"
+    }else if(num === 1){
+        console.log('not ok')
+        return "Odd"
+    }
 }
 
-invert([1,2,3,4,-5])
+evenOrOdd(-6)
