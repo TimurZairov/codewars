@@ -87,20 +87,37 @@
 //
 // invert([1,2,3,4,-5])
 
-function evenOrOdd(number) {
-    let num
-    if(number > 0) {
-        num = number%2
-    }else {
-        num = number* -1 %2
-    }
-    if(num === 0) {
-        console.log('ok')
-        return "Even"
-    }else if(num === 1){
-        console.log('not ok')
-        return "Odd"
-    }
-}
+// function evenOrOdd(number) {
+//     let num
+//     if(number > 0) {
+//         num = number%2
+//     }else {
+//         num = number* -1 %2
+//     }
+//     if(num === 0) {
+//         console.log('ok')
+//         return "Even"
+//     }else if(num === 1){
+//         console.log('not ok')
+//         return "Odd"
+//     }
+// }
+//
+// evenOrOdd(-6)
 
-evenOrOdd(-6)
+// function evenOrOdd(number) {
+//     if(number%2 === 0){
+//         console.log('ok')
+//     }else {
+//         console.log('not ok')
+//     }
+// }
+//
+// evenOrOdd(-7)
+
+// function removeChar(str){
+//     return  str.slice(0, -1).slice(1)
+// };
+//
+// removeChar('person')
+
