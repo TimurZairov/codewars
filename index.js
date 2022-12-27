@@ -176,3 +176,16 @@
 //     return string.split(' ')
 //
 // }
+
+function hero(bullets, dragons){
+//Get Coding!
+    const num = bullets/dragons
+    console.log(num)
+    if(num < 2){
+        console.log(false)
+    }else {
+        console.log(true)
+    }
+}
+
+hero(10, 5)
