@@ -177,15 +177,22 @@
 //
 // }
 
-function hero(bullets, dragons){
-//Get Coding!
-    const num = bullets/dragons
-    console.log(num)
-    if(num < 2){
-        console.log(false)
-    }else {
-        console.log(true)
-    }
-}
+// function hero(bullets, dragons){
+// //Get Coding!
+//     const num = bullets/dragons
+//     console.log(num)
+//     if(num < 2){
+//         console.log(false)
+//     }else {
+//         console.log(true)
+//     }
+// }
+//
+// hero(10, 5)
 
-hero(10, 5)
+// function makeNegative(num) {
+//     // Code?
+//     return (num < 0) ? num : num* -1;
+// }
+//
+// makeNegative(42)
