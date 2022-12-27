@@ -168,3 +168,11 @@
 //     true,  false, false, true ,
 //     true,  true,  true,  true ,
 //     false, false, true,  true ])
+
+
+// function stringToArray(string){
+//
+//     // code code code
+//     return string.split(' ')
+//
+// }
