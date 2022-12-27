@@ -218,21 +218,32 @@
 // positiveSum([1,-2,3,4,5])
 
 
-function switchItUp(number){
-//Write your own Code!
-    switch (number){
-        case 0: return "Zero";
-        case 1: return 'One';
-        case 2: return "Two";
-        case 3: return "Three";
-        case 4: return "Four";
-        case 5: return "Five"
-        case 6: return "Six"
-        case 7: return "Seven"
-        case 8: return "Eight"
-        case 9: return "Nine"
-        default: return 0
-    }
-}
+// function switchItUp(number){
+// //Write your own Code!
+//     switch (number){
+//         case 0: return "Zero";
+//         case 1: return 'One';
+//         case 2: return "Two";
+//         case 3: return "Three";
+//         case 4: return "Four";
+//         case 5: return "Five"
+//         case 6: return "Six"
+//         case 7: return "Seven"
+//         case 8: return "Eight"
+//         case 9: return "Nine"
+//         default: return 0
+//     }
+// }
+//
+// switchItUp(5)
 
-switchItUp(5)
+// const areaOrPerimeter = function(l , w) {
+//     // Return your answer
+//     if (l === w){
+//         return l*w
+//     }else {
+//        return (l+w) * 2
+//     }
+// };
+//
+// areaOrPerimeter(6,10)
