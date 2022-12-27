@@ -131,3 +131,9 @@
 // }
 // countSheep(0)
 
+// function descendingOrder(n){
+//     //...
+//     const reverse = +n.toString().split('').reverse().sort((a, b) => b - a).join('')
+//     console.log(reverse)
+// }
+// descendingOrder(123456789)
