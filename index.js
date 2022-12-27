@@ -247,3 +247,14 @@
 // };
 //
 // areaOrPerimeter(6,10)
+
+// function makeUpperCase(str) {
+//     // Code here
+//     return str.toUpperCase()
+// }
+
+// const updateLight = current => ({
+//     green: 'yellow',
+//     yellow: 'red',
+//     red: 'green',
+// })[current]
