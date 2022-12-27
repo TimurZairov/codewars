@@ -121,3 +121,13 @@
 //
 // removeChar('person')
 
+// let countSheep = function (num){
+//     //your code here
+//     let str = ''
+//     for (let i = 1; i<=num; i++){
+//         str +=`${i} sheep...`
+//     }
+//     console.log(str)
+// }
+// countSheep(0)
+
