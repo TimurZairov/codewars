@@ -137,3 +137,14 @@
 //     console.log(reverse)
 // }
 // descendingOrder(123456789)
+
+let isSquare = function(n){
+    const sqrt = Math.sqrt(n)
+    if(Number.isInteger(sqrt)){
+        return true
+    }else {
+        return false
+    }
+}
+
+isSquare(25)
