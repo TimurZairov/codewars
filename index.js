@@ -138,13 +138,33 @@
 // }
 // descendingOrder(123456789)
 
-let isSquare = function(n){
-    const sqrt = Math.sqrt(n)
-    if(Number.isInteger(sqrt)){
-        return true
-    }else {
-        return false
-    }
-}
+// let isSquare = function(n){
+//     const sqrt = Math.sqrt(n)
+//     if(Number.isInteger(sqrt)){
+//         return true
+//     }else {
+//         return false
+//     }
+// }
+//
+// isSquare(25)
 
-isSquare(25)
+// function countSheeps(arrayOfSheep) {
+//     // TODO May the force be with you
+//     let count = 0
+//     arrayOfSheep.map(item => {
+//         if(item === true){
+//             count++
+//         }
+//     })
+//     console.log(count)
+//     const str = `There are ${count} sheeps in total`
+//     console.log(str)
+//    return str
+// }
+// countSheeps([true,  true,  true,  false,
+//     true,  true,  true,  true ,
+//     true,  false, true,  false,
+//     true,  false, false, true ,
+//     true,  true,  true,  true ,
+//     false, false, true,  true ])
